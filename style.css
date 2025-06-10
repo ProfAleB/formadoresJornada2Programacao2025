@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(121, 227, 126);
+    color: white;
+}
+
+h2{
+    color: rgb(255, 106, 0);
+}
+
+.texto-inglês{
+    color:blue;
+    font-style: italic;
+}
+
+#nome-usuário{
+    font-weight: bold;
+}

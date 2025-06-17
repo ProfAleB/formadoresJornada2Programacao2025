@@ -1,6 +1,9 @@
 body{
     background-color: rgb(121, 227, 126);
     color: white;
+    text-align: center;
+    font-family: Verdana;
+    
 }
 
 h2{
@@ -14,4 +17,13 @@ h2{
 
 #nome-usuário{
     font-weight: bold;
+}
+
+@media screen and (max-width:420px){
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 24px;
+    }
 }

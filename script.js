@@ -5,9 +5,14 @@ function inserirNome () {
 
 }
 
-function mudaCor(){
-    let elemento = document.getElementById("#nome-usuario");
-    elemento.style.color = "blue"
-}
+
+
 inserirNome ();
-mudaCor();
+
+let linguagens = ["JavaScript", "Python", "PHP"];
+
+const item = document.querySelector("#lista");
+
+item.textContent = linguagens[0];
+item.textContent = linguagens[1];
+item.textContent = linguagens[2];
